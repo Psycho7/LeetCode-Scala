@@ -6,6 +6,7 @@ object Solution {
       if (map contains other) Array(map(other), pos)
       else iter(pos + 1, map + (self -> pos))
     }
+
     iter(0, Map[Int, Int]())
   }
 }
